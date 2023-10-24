@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Barnes LLC - DJ Pat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Patrick Barnes LLC</h1>
+        <p>Also known as DJ Pat</p>
+    </header>
+
+    <section id="about">
+        <h2>About DJ Pat</h2>
+        <p>Welcome to my DJ services page! I've been in the DJ industry for over [X years] and love bringing life to every event. Whether it's a wedding, birthday party, or corporate event, I've got the tunes to keep the party going!</p>
+    </section>
+
+    <section id="services">
+        <h2>Services & Pricing</h2>
+        <ul>
+            <li>Basic DJ Service: $[Price]</li>
+            <li>Wedding Special: $[Price]</li>
+            <!-- Add other services as needed -->
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <!-- You can replace the # with actual image paths -->
+        <img src="#" alt="Event Image 1">
+        <img src="#" alt="Event Image 2">
+        <!-- Add more images as needed -->
+    </section>
+
+    <footer>
+        <p>Contact me at: [YourEmail@email.com] or [YourPhoneNumber]</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#about, #services, #gallery {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
